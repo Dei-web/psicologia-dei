@@ -1,0 +1,31 @@
+# Dependencias de Node
+node_modules/
+package-lock.json
+
+# Archivos de entorno
+.env
+
+# Cache de procesos
+.pids
+*.pid
+*.seed
+
+# Logs y archivos temporales
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios generados por herramientas de construcción
+dist/
+build/
+coverage/
+
+# Archivos de configuración de editores de código
+.vscode/
+.idea/
+.DS_Store
+
+# Configuración de despliegue (si usas PM2)
+pm2 logs/
