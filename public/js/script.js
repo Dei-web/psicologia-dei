@@ -1,3 +1,16 @@
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+    const header = document.querySelector('.header-welcome');
+    if (!navbar || !header) return;
+
+    const headerBottom = header.getBoundingClientRect().bottom;
+    if (headerBottom <= 0) {
+        navbar.classList.add('sticky');
+    } else {
+        navbar.classList.remove('sticky');
+    }
+});
+
 
 const animationtext = () => {
 

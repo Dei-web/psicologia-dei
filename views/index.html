@@ -9,15 +9,95 @@
 
   </head>
   <body>
-    <div class="container">
-        <div class="servicios-barrido-js">
-           <div class="img-container">
-             <img src="/images/logo-2.jpg" alt="">
+    <div id="root">
+
+
+        <header class="header-welcome">
+            <div class="servicios-barrido-js">
+                <div class="img-container">
+                    <img src="/images/logo-2.jpg" alt="">
+                </div>
+                <h1>Milagros bolanos</h1>
+                <span class="Animate-text">Click Emocional</span>
             </div>
-        <h1>Milagros bolanos</h1>
-        <span class="Animate-text">Click Emocional</span>
-     </div>
-    </div>
-     <script src="/js/script.js"></script>
+        </header>
+
+        <nav class="navbar">
+            <div class="header__divLeft">
+                <button id="accessMenu" class="divLeft__forms">
+                    <div class="divLeft__firtsForm"></div>
+                    <div class="divLeft__secondForm"></div>
+                    <div class="divLeft__threeForm"></div>
+                </button>
+                <img src="" alt="logotipo" />
+            </div>
+
+            <div class="header__divCenter">
+                <nav class="divCenter__nav">
+                    <ul class="navMenu">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Conoceme</a></li>
+                        <li>
+                            <a href="#">Servicios</a>
+                            <ul class="menuSubmenu">
+                                <li>
+                                    <a href="#">Terapias psicologicas</a>
+                                    <ul class="menuSubmenu__sub">
+                                        <li><a href="#">¿Necesito ayuda profesional?</a></li>
+                                        <li><a href="#">Terapias</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Orientacion a estudiantes</a></li>
+                                <li><a href="#">Asesoria a docentes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Para empresas</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__divRight">
+                <button class="header__divButton">Agendar cita</button>
+            </div>
+        </nav>
+
+
+        <section class="section-1-psicoterapia-online">
+            <div class="section__container">
+                <div class="section__container__left">
+                    <h2>Bienvenido a mi sitio web</h2>
+                    <p>Ofrezco servicios de terapia psicológica, orientación a estudiantes y asesoría a docentes.</p>
+                    <button class="section__container__left__button">Conocer más</button>
+                </div>
+                <div class="section__container__right">
+                    <img src="/images/hero-image.jpg" alt="Imagen de bienvenida">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="section__services">
+                <h2>Nuestros Servicios</h2>
+                <div class="services__cards">
+                    <div class="card">
+                        <img src="/images/therapy.jpg" alt="Terapia psicológica">
+                        <h3>Terapia psicológica</h3>
+                        <p>Brindamos apoyo emocional y psicológico para mejorar tu bienestar.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/student-advice.jpg" alt="Orientación a estudiantes">
+                        <h3>Orientación a estudiantes</h3>
+                        <p>Asesoramos a estudiantes en su desarrollo académico y personal.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/teacher-advice.jpg" alt="Asesoría a docentes">
+        </section>
+
+
+    </div>   
+    <script src="/js/script.js"></script>
   </body>
 </html>
